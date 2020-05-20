@@ -49,6 +49,10 @@ BEGIN
     END LOOP;
     jm := jm + 2;
     jd := j_day_no + 1;
+    IF jm > 12 AND jd = 1 THEN
+        jm = 12;
+        jd = 30;
+    END IF;
     RETURN format('%s/%s/%s', jy, to_char(jm, 'FM09'), to_char(jd, 'FM09'));
 END;
 $$
