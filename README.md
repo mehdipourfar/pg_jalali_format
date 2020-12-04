@@ -1,3 +1,7 @@
+# DEPRICATION WARNING
+This package is deprecated it has some bugs. Use [Jalali Utils](https://github.com/teamappir/jalali_utils) instead.
+It is way a lot faster and has more features.
+
 # Postgres functions for formatting date or timestamp as Jalali date
 Useful when you want to export your data directly from postgres.
 
