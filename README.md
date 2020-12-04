@@ -1,5 +1,5 @@
 # DEPRICATION WARNING
-This package is deprecated it has some bugs. Use [Jalali Utils](https://github.com/teamappir/jalali_utils) instead.
+This package is deprecated and it has some bugs. Use [Jalali Utils](https://github.com/teamappir/jalali_utils) instead.
 It is way a lot faster and has more features.
 
 # Postgres functions for formatting date or timestamp as Jalali date
